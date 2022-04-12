@@ -1,0 +1,32 @@
+= Pony REST 
+
+An example REST application writtin in Ponylang
+
+== Install Ponylang
+
+:ponyup:  https://github.com/ponylang/ponyup[ponyup]
+
+Install {ponyup} and then install `ponyc` and `corral`
+
+[source, sh]
+----
+ponyup update ponyc release
+----
+
+[source, sh]
+----
+ponyup update corral release
+----
+
+== Building and running locally
+
+[source, sh]
+----
+corral run -- ponyc -Dopenssl_1.1.x
+# Or -Dopenssl_0.9.0
+----
+
+If you want another name for the binary, add -b and your binary name
+
+
+
