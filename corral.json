@@ -1,0 +1,17 @@
+{
+  "packages": [],
+  "deps": [
+    {
+      "locator": "github.com/theodus/jennet.git",
+      "version": ""
+    }
+  ],
+  "info": {
+    "description": "HTTP server receiving events from AI bucket",
+    "homepage": "",
+    "license": "",
+    "documentation_url": "",
+    "version": "0.1.0",
+    "name": ""
+  }
+}
